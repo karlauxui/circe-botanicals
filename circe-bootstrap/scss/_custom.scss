@@ -1,0 +1,14 @@
+/*Custom SCSS and CSS styles*/
+
+$lightgreen: #ace8eb;
+
+header, footer {
+    background-color: $lightgreen;
+}
+
+//style that rounds corners and makes them responsive
+img {
+    @include img-fluid();
+    @include border-radius();
+}
+
